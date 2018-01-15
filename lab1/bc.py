@@ -1,3 +1,5 @@
+from stackLib import *
+
 def bc (stringInput):
   n = 0
   totalinputs = 0
@@ -15,10 +17,10 @@ def bc (stringInput):
     
     elif ((stringList[i] == ')') or (stringList[i] == ']') or (stringList[i] == '}')):
       totalinputs = totalinputs+1
-      print 'close'
+
       returnValue = newstack.pop()
       
-      print returnValue
+
       
       
       if ((returnValue == '(') and (stringList[i] == ')')):
