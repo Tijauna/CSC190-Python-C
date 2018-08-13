@@ -1,4 +1,4 @@
-# CSC190-Python-C
+# CSC190-Python-C January to April 2018
 
 Assignment 1 - Chess Player: Using trees and minimax algo in order to generate best moves.
 
